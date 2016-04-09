@@ -45,7 +45,3 @@ parse_git_branch() {
 
 export PS1="\[$red\]\w \[$yellow\]>\[$green\] $logname\[$blue\]\$(parse_git_branch) \[$reset\]"
 
-# Setting PATH
-PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
-PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
-export PATH
